@@ -1,53 +1,59 @@
 # AuroraVPN — Landing Page (Portfólio)
 
-Landing page responsiva e moderna inspirada em um layout de referência (estilo SaaS/VPN), com foco em UI limpa, tipografia leve, seções bem definidas e componentes reutilizáveis.
+Landing page moderna e responsiva para uma VPN fictícia (**AuroraVPN**), criada como projeto de portfólio com foco em **UI/UX**, organização de arquivos, responsividade e interações em JavaScript puro.
 
-> Projeto criado para portfólio front-end: HTML + CSS + JavaScript puro.
+✅ Layout completo (Hero, Features, Pricing, Network, Testimonials, Footer)  
+✅ Animações de entrada (Intersection Observer)  
+✅ Menu mobile + scroll suave + link ativo  
+✅ Slider de depoimentos  
+✅ Favicons e assets organizados
 
 ---
 
 ## 🔗 Demo (GitHub Pages)
 
-- Em breve: ative em **Settings → Pages → Deploy from branch → main / root**
-
-Quando ativar, o link ficará assim:
-`https://pedrocavalcanti-dev.github.io/aurora-vpn-landing-page/`
-
----
-
-## ✨ Features (o que essa landing terá)
-
-- ✅ Hero com CTA (botão “Começar agora”)
-- ✅ Navbar fixa com âncoras (scroll suave)
-- ✅ Seção de métricas (Usuários / Localizações / Servidores)
-- ✅ Seção de recursos com checklist
-- ✅ Cards de planos (Grátis / Padrão / Premium) com destaque no plano recomendado
-- ✅ Responsivo (desktop, tablet e mobile)
-- ✅ Micro interações (hover, foco, sombras leves)
-- ✅ Código limpo, organizado e fácil de manter
+- **Link:** SEU_LINK_AQUI  
+> Para ativar: `Settings → Pages → Deploy from a branch → main / root`
 
 ---
 
 ## 🧱 Stack
 
-- **HTML5**
-- **CSS3** (Flexbox/Grid)
-- **JavaScript (Vanilla)**
-
-Sem frameworks (projeto ideal pra portfólio e domínio da base).
+- HTML5
+- CSS3 (Flexbox + responsividade)
+- JavaScript (Vanilla)
+- Bootstrap Icons (CDN)
+- Google Fonts (Rubik)
 
 ---
 
-## 📁 Estrutura do projeto
+## ✨ Funcionalidades
+
+- **Navbar** com navegação por âncoras
+- **Menu mobile** com toggle (abre/fecha e fecha ao clicar fora)
+- **Smooth Scroll** com offset do header fixo
+- **Link ativo** na navbar conforme a seção visível
+- **Animações** ao aparecer na tela
+- **Slider de depoimentos** com setas e bolinhas
+- **Contador animado** nas estatísticas (stats)
+- **Parallax leve** na imagem do Hero (opcional)
+
+---
+
+## 📁 Estrutura de pastas
 
 ```txt
 aurora-vpn-landing-page/
-├─ index.html
-├─ README.md
-├─ .gitignore
+│  .gitignore
+│  index.html
+│  README.md
 ├─ assets/
-│  ├─ img/
+│  ├─ favicon/
 │  ├─ icons/
+│  ├─ img/
+│  │  ├─ ilustracoes/
+│  │  ├─ mapa/
+│  │  └─ planos/
 │  └─ fonts/
 ├─ css/
 │  └─ style.css
