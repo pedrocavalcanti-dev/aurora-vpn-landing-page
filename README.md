@@ -12,7 +12,7 @@ Landing page moderna e responsiva para uma VPN fictícia (**AuroraVPN**), criada
 
 ## 🔗 Demo (GitHub Pages)
 
-- **Link:** SEU_LINK_AQUI  
+- **Link:** https://auroravpn.netlify.app/  
 > Para ativar: `Settings → Pages → Deploy from a branch → main / root`
 
 ---
